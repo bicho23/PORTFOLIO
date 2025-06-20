@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <header>
+        <a href="#" ><img src="images/Bouchra-designstyle-popstar-m.png" height="40%"width="50%"> </a>
+       
+        <nav class="navigation">
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+         
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="about-me ">
+            <div class="details">
+                <h1> Hello, I am Bochra,<br>  I am   a Web developer </h1>
+                <br>
+                <a href="#projects" class="main-btn">View my work</a>
+            </div>
+            <div class="img">
+                <img src="images/banner.jpg" height="50%" width="500px">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="cards" id="skills">
+        <h2 class="title">Skills</h2>
+        <div class="content">
+            <div class="card">
+                
+                <img src="images/html.png">
+            
+                <div class="info">
+                    <h3>HTML&CSS</h3>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="images/javascript.png">
+                </div>
+                <div class="info">
+                    <h3>JavaScript</h3>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                   <img src="images/c-.png"> 
+                </div>
+                <div class="info">
+                    <h3>C++</h3>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                   <img src="images/python.png"> 
+                </div>
+                <div class="info">
+                    <h3>Python</h3>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                   <img src="images/social.png"> 
+                </div>
+                <div class="info">
+                    <h3>GitHub</h3>
+                   
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="images/mini.png">
+                </div>
+                <div class="info">
+                    <h3>Mysql</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img width="100%" src="images/Capture d’écran 2025-06-13 151446.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Store Phone</p>
+                    <a href="#" class="more-details">More Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img width="100%" height="100%" src="images/Capture d’écran 2025-06-13 150358.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>ARSHA</p>
+                    <a href="#" class="more-details">More Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img width="100%" src="images/Capture d’écran 2025-06-13 150434.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Project 3</h3>
+                    <p>Yammi</p>
+                    <a href="#" class="more-details">More Details</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img width="100%" src="images/Capture d’écran 2025-06-13 150255.png" alt="">
+                </div>
+                <div class="project-info">
+                    <h3>Project 4</h3>
+                    <p>Append</p>
+                    <a href="#" class="more-details">More Details</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+<section class="cards contact " id="contact">
+    <h2 class="title">Contact me</h2>
+    <div id="after_submit"> <h1> Feel free to reach out for collaboration or any exciting opportunities.</h1> <br></div>
+   
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="email">Your email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+      </div>
+        
+        <input id="submit_button" type="submit"  value="Send email" />
+    </form>
+
+    <div class="infor">
+        <h4> Num téléphone: 0666688881</h4>
+        <h4>Email: bochra@gmail.com</h4>
+        <br>
+        <div class="social-icons">
+            <a href="https://github.com/bicho23" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a>
+          </div> 
+    </div>
+</section>
+
+<footer>
+<h3> © 2025 Bochra | All Rights Reserved</h3> 
+  
+</footer> 
+</body>
+</html>
